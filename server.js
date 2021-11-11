@@ -31,4 +31,10 @@ app.get("/cities", function (req, res) {
     });
 });
 
+app.get("/agents/?", function (req, res) {
+  Agent.find({ city: req.query.city }).then((agents) => {
+    res.json(agents);
+  });
+});
+
 app.listen(process.env.PORT || 3000, () => console.log("Server is running..."));
