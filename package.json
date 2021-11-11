@@ -1,0 +1,26 @@
+{
+  "name": "real-estate-agents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YamEbgui/Real-Estate-Agents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YamEbgui/Real-Estate-Agents/issues"
+  },
+  "homepage": "https://github.com/YamEbgui/Real-Estate-Agents#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.12",
+    "path": "^0.12.7"
+  }
+}
